@@ -1,0 +1,1 @@
+<% if (toastMessage != "") { %><% if (toastStatus == 'success') { %>    <script>        M.toast({html:'<%= toastMessage %>'}, 5000);    </script>        <% }else{ %>    <script>        M.toast({html:'<%= toastMessage %>'}, 5000);    </script>        <% } %><% } %>

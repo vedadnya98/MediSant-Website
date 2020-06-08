@@ -1,0 +1,33 @@
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ crossorigin="anonymous"></script>
+
+<script src="/js/materialize.js"></script>
+<script src="/js/main.js"></script>
+
+<% if (toastMessage != "") { %>
+	<% if (toastStatus == 'success') { %>
+		<script>
+			M.toast({html:'<%= toastMessage %>'}, 5000);
+		</script>
+	<% }else{ %>
+		<script>
+			M.toast({html:'<%= toastMessage %>'}, 5000);
+		</script>
+	<% } %>
+<% } %>
+<footer class="page-footer grey lighten-5">
+	<div class="footer-copyright grey-text text-darken-2">
+		<div class="container">
+			<div class="row">
+				<div class="col s6">
+					© 2019 Copyright MediSant
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</html>

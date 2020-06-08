@@ -1,0 +1,1 @@
+var mongoose = require('mongoose');var userSchema = new mongoose.Schema({    manufacture: {        type: String,        required: true    },    name:{        type: String,        required: true    },    content:{        type: String,        required: true    }});module.exports = mongoose.model('Medicine', userSchema);

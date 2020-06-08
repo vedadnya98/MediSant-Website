@@ -1,0 +1,1 @@
+$(document).ready(function(){    $('.sidenav').sidenav();    $('.slider').slider();    $('.modal').modal();    $('.tabs').tabs();    $('select').formSelect();    $('.chips-autocomplete').chips();    $('.datepicker').datepicker();    $('.collapsible').collapsible();});

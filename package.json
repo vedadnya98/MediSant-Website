@@ -1,0 +1,48 @@
+{
+  "name": "medisant",
+  "version": "0.0.1",
+  "description": "A smart media assistant that keeps a record of patient's medical history along with helping the doctor prescribe medicine that will suit the patient. The app will also remind the patient when to take medicine and keep track of medicine remaining. The assistant will also guide through first aid treatment. ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harishb19/MediSant.git"
+  },
+  "keywords": [
+    "medical",
+    "assistant",
+    "websit"
+  ],
+  "author": "Harish Balasubramanian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harishb19/MediSant/issues"
+  },
+  "homepage": "https://github.com/harishb19/MediSant#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "ejs-locals": "^1.0.2",
+    "env": "0.0.2",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "formidable": "^1.2.1",
+    "materialize-css": "^1.0.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.20",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "serve-favicon": "^2.5.0",
+    "shortid": "^2.2.14"
+  }
+}
